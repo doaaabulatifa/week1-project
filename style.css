@@ -1,0 +1,118 @@
+
+.header{
+    position:fixed;
+    
+    z-index: 1;
+    background-image: url("headerbg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    align-items: center;
+}
+main{
+    display: block;
+}
+.feature{
+    padding: 20px;
+
+
+    background-image: url("img/foodbg.webp");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+div{
+    padding: 20px;
+}
+#da{
+    background-color: #f7f7f7;
+    font-size: 30px;
+    font-weight: bold;
+  
+    border-radius: 50%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(67, 48, 124);
+    font-style: italic;
+    text-decoration: wavy;
+
+}
+
+h1{
+    color: #f7f7f7;
+    text-shadow: 2px 2px #9981ce;
+    font-style: italic;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+
+}
+nav{
+    font-size: 30px;
+    
+}
+a{
+    color: beige;
+    padding: 20px;
+}
+.button{
+    background-color: #d2d5f4; 
+border: 2px solid blue;
+border-radius: 20px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+text-transform: uppercase;
+color: rgb(5, 5, 50);
+
+
+}
+a{
+    text-decoration: none;
+   
+}
+a:button{
+    cursor: pointer;
+}
+a:hover{
+    background-color: rgb(174, 174, 112);
+
+}
+h2{
+    color: rgb(141, 133, 231);
+    font-size: 40px;
+    text-decoration: wavy;
+}
+h3{
+    color: red;
+}
+p{
+    color: aquamarine;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.here{
+    color: rgb(121, 78, 201);
+    font-size: 30px;
+    font-style: italic;
+}
+footer{
+    background-image: url("img/OIP.jpg");
+   
+    padding: 20px;
+    text-align: center;
+}
