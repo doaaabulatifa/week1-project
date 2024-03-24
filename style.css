@@ -3,7 +3,7 @@
     position:fixed;
     
     z-index: 1;
-    background-image: url("headerbg.webp");
+    /* background-image: url("headerbg.webp"); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -12,28 +12,37 @@
     /* flex-direction: column; */
     /* justify-content: space-between; */
     align-items: center;
+  
+   
+
+}
+nav,a:hover{
+    text-decoration: underline;
+
 }
 main{
-    display: block;
+    position: relative;
+    
 }
-.feature{
-    padding: 20px;
-
-
+#one{
     background-image: url("img/foodbg.webp");
     background-repeat: no-repeat;
-    height: 100vh;
+}
+.feature{
+    padding: 80px;
+    /* height: 100vh; */
     background-size: cover;
     color: blanchedalmond;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: 100%; */
+    display: block;
 
 }
 div{
     padding: 20px;
 }
-#da{
+.da{
     background-color: #f7f7f7;
     font-size: 30px;
     font-weight: bold;
@@ -67,7 +76,7 @@ a{
     padding: 20px;
 }
 .button{
-    background-color: #d2d5f4; 
+background-color: #d2d5f4; 
 border: 2px solid blue;
 border-radius: 20px;
 color: white;
@@ -88,8 +97,9 @@ a{
 a:button{
     cursor: pointer;
 }
-a:hover{
+section >a:hover{
     background-color: rgb(174, 174, 112);
+    color:blue;
 
 }
 h2{
@@ -99,17 +109,68 @@ h2{
 }
 h3{
     color: red;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p{
     color: aquamarine;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.here{
-    color: rgb(121, 78, 201);
+div{
+    color: #935d06;
     font-size: 30px;
     font-style: italic;
+    font-weight: bold;
 }
+.here{
+    color: rgb(62, 8, 136);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration:solid;
+  
+}
+#two{
+    background-image: url("img/summer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+    color: blanchedalmond;
+   position: relative;
+  
+
+
+ 
+  
+}
+
+
+#three{
+    background-image: url("img/foodbg.webp");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    color: blanchedalmond;
+  position: relative;
+ 
+  
+
+   
+  
+}
+#four{
+    background-image: url("img/dri.webp");
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+    color: blanchedalmond;
+    position: relative;
+  
+   
+}
+
 footer{
     background-image: url("img/OIP.jpg");
    
